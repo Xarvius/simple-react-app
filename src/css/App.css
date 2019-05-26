@@ -1,0 +1,26 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background: #222;
+  color: white;
+}
+.wraper {
+  white-space: pre-wrap;
+}
+main {
+  padding-top: 60px;
+  flex-grow: 1;
+}
+footer {
+  background-color: #343a40;
+  opacity: 0.77;
+  color: white;
+  text-align: center;
+}
+
+.verticalLine {
+  border-left: 3px solid white;
+  opacity: 0.3;
+}
