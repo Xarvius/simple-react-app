@@ -3,7 +3,6 @@ import React from "react";
 const MusicShow = props => {
   const music = props.music;
   const text = String(music.response);
-  console.log(music);
   return (
     <>
       <div className="row">

@@ -7,7 +7,6 @@ const FormFinder = props => {
       <form onSubmit={click}>
         <div className="form-group">
           <label htmlFor="artist">Artist: </label>
-          Example: Billie Eilish
           <input
             type="text"
             className="form-control"
@@ -17,10 +16,10 @@ const FormFinder = props => {
             value={artist}
             required
           />
+          Example: Billie Eilish
         </div>
         <div className="form-group">
           <label htmlFor="title">Title: </label>
-          Example: COPYCAT
           <input
             type="text"
             className="form-control"
@@ -30,6 +29,7 @@ const FormFinder = props => {
             value={title}
             required
           />
+          Example: COPYCAT
         </div>
         <button type="submit" className="btn btn-outline-primary">
           Find
