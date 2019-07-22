@@ -50,7 +50,7 @@ class Music extends Component {
     this.setState({ show: !this.state.show });
   };
   render() {
-    const { music, artist, title, findedTitle, findedArtist } = this.state;
+    const { music, artist, title, show, findedTitle, findedArtist } = this.state;
     return (
       <div className="container">
         <h1>Find the song</h1>
@@ -67,11 +67,11 @@ class Music extends Component {
           <div className="col-sm-7">
             {music && (
               <MusicShow
-                music={this.state.music}
+                music={music}
                 artist={findedArtist}
                 title={findedTitle}
                 click={this.handleShow}
-                show={this.state.show}
+                show={show}
               />
             )}
           </div>
